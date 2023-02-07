@@ -22,7 +22,7 @@ class SegmentationPourWater:
         """
         pyflex_root = os.environ['PYFLEXROOT']
         assert 'PyFlexRobotics' not in pyflex_root, pyflex_root
-        assert 'PyFlex' not in pyflex_root, pyflex_root
+        assert 'PyFlex' in pyflex_root, pyflex_root
         self.use_fake_tool = use_fake_tool
         self._debug_print = False
 
