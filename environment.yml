@@ -1,0 +1,33 @@
+name: toolflownet
+channels:
+  - defaults
+dependencies:
+  - python=3.7
+  - numpy=1.21.5
+  - imageio=2.6.1
+  - glob2=0.7
+  - cmake=3.14.0
+  - pybind11=2.4.3
+  - click
+  - matplotlib
+  - joblib
+  - Pillow=6.1
+  - pip
+  - pip:
+    - chardet
+    - pickle5
+    - gdown
+    - gtimer
+    - gym==0.14.0
+    - moviepy
+    - opencv-python==4.1.1.26
+    - Shapely==1.6.4.post2
+    - pyquaternion==0.9.5
+    - sk-video==1.1.10
+    - plotly==5.7.0
+    - scikit-image
+    - torchmetrics
+    - tensorboard
+    - kaleido
+    - wandb
+    - class-resolver

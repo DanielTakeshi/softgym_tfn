@@ -1,0 +1,36 @@
+name: toolflownet
+channels:
+  - defaults
+  - pytorch
+dependencies:
+  - python=3.7
+  - numpy
+  - imageio
+  - glob2
+  - cmake
+  - pybind11
+  - click
+  - matplotlib
+  - joblib
+  - Pillow
+  - pip
+  - pytorch=1.9.0=py3.7_cuda10.2_cudnn7.6.5_0
+  - torchvision=0.10.0=py37_cu102
+  - pip:
+    - chardet
+    - pickle5
+    - gdown
+    - gtimer
+    - gym==0.14.0
+    - moviepy
+    - opencv-python
+    - pyquaternion==0.9.5
+    - sk-video
+    - plotly
+    - scikit-image
+    - shapely
+    - torchmetrics
+    - tensorboard
+    - kaleido
+    - wandb
+    - class-resolver
