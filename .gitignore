@@ -1,3 +1,5 @@
+PyFlex/FleX/
+
 softgym/cached_initial_states
 softgym/cached_initial_states/*
 softgym/envs/corl_cached_state_backup
